@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+				initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>DockVille</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body>
+    <!-- for header part -->
+    <header>
+      <div class="logosec">
+        <div class="logo">DockVile</div>
+        <img
+          src="https://media.geeksforgeeks.org/wp-content/uploads/20221210182541/Untitled-design-(30).png"
+          class="icn menuicn"
+          id="menuicn"
+          alt="menu-icon"
+        />
+      </div>
+
+      <div class="searchbar">
+        <input type="text" placeholder="Search" />
+        <div class="searchbtn">
+          <img
+            src="https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+            class="icn srchicn"
+            alt="search-icon"
+          />
+        </div>
+      </div>
+
+      <div class="message">
+        <div class="circle"></div>
+        <img
+          src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183322/8.png"
+          class="icn"
+          alt=""
+        />
+        <div class="dp">
+          <img
+            src="https://media.geeksforgeeks.org/wp-content/uploads/20221210180014/profile-removebg-preview.png"
+            class="dpicn"
+            alt="dp"
+          />
+        </div>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <div class="navcontainer">
+        <nav class="nav">
+          <div class="nav-upper-options">
+            <div class="nav-option option1">
+              <img
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20221210182148/Untitled-design-(29).png"
+                class="nav-img"
+                alt="dashboard"
+              />
+              <h3>Dashboard</h3>
+            </div>
+
+            <div class="option2 nav-option">
+              <a href="#" class="sidebar-link" >
+                <i class="fas fa-parking"></i> 
+              </a>
+              <h3>Overview</h3>
+            </div>
+
+            <div class="nav-option option3">
+              <a href="#" class="sidebar-link" >
+                <i class="fas fa-bell"></i> 
+              </a>
+              <h3>Notifications</h3>
+            </div>
+
+            <div class="nav-option option4">
+              <a href="#" class="sidebar-link" >
+                <i class="fas fa-chart-bar"></i> 
+              </a>
+              <h3>Analytics</h3>
+            </div>
+
+            <div class="nav-option option5">
+              <a href="#" class="sidebar-link" >
+                <i class="fas fa-calendar"></i> 
+              </a>
+              <h3>Reservation and management</h3>
+            </div>
+
+            <div class="nav-option option6">
+              <a href="#" class="sidebar-link" >
+                <i class=" fas fas fa-cog"></i> 
+              </a>
+              <h3>Settings</h3>
+            </div> 
+
+            <div class="nav-option logout">
+              <a href="#" class="sidebar-link" >
+                <i class=" fas fa-sign-out-alt"></i> 
+              </a>
+              <h3>Logout</h3>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="searchbar2">
+          <input type="text" name="" id="" placeholder="Search" />
+          <div class="searchbtn">
+            <img
+              src="https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+              class="icn srchicn"
+              alt="search-button"
+            />
+          </div>
+        </div>
+
+        <div class="box-container">
+          <div class="box box1">
+            <div class="text">
+              <h6 class="topic-heading">day and night</h6>
+              <h2 class="topic">Parking Services</h2>
+            </div>
+
+            <img
+              src="https://t4.ftcdn.net/jpg/03/27/76/57/240_F_327765797_XT1kj4k5OyqklSOvGeup0OGUDJSA1JDO.jpg"
+              alt="Views"
+            />
+          </div>
+
+          <div class="box box2"><a href="car-tire-clinic.html">
+            <div class="text">
+              <h2 class="topic-heading">Tire Care</h2>
+              <h2 class="topic">Tire Clinic Services</h2>
+            </div>
+
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8-ZZO0KX8tYBf-Gjho6QQBbrF-a9nRCH3Ny0bcXAt3A&s"
+              alt="car tire clinic"
+            />
+          </div></a>
+
+          <div class="box box3">
+            <div class="text">
+              <h2 class="topic-heading">Battery Leasing</h2>
+              <h2 class="topic">Car Battery Renting Services</h2>
+            </div>
+
+            <img
+              src="data:image/png;base64,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"
+              alt="comments"
+            />
+          </div>
+
+          <div class="box box4">
+            <div class="text">
+              <h2 class="topic-heading">Mobile Mechanics</h2>
+              <h2 class="topic">Repair and Maintenance Services On The Go</h2>
+            </div>
+
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv_CHZQJaQG07XSkVgkDK7jYuK-pP28d5Z9Q&usqp=CAU"
+              alt="published"
+            />
+          </div>
+        </div>
+
+       
+    <script src="./index.js"></script>
+  </body>
+</html>
